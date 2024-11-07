@@ -1,6 +1,7 @@
 body {
     font-family: Arial, sans-serif;
     background-color: rgb(164, 80, 255);
+    color: rgb(74, 0, 117);
   }
   
   nav, footer {
@@ -12,7 +13,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    padding: 15px;
   }
 
   h1 {
@@ -32,4 +33,5 @@ body {
   
   footer a {
     margin: 0 10px;
+    color: blue;
   }
