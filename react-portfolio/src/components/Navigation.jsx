@@ -1,10 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import './Navigation.css';
 
 const Navigation = () => {
   return (
-    <nav>
-      <ul>
+    <nav className="navbar">
+      <ul className="nav-links">
         <li><Link to="/">About Me</Link></li>
         <li><Link to="/portfolio">Portfolio</Link></li>
         <li><Link to="/contact">Contact</Link></li>

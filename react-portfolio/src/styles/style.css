@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(164, 80, 255);
+  }
+  
+  nav, footer {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+
+  h1 {
+    margin: 0;
+  }
+
+  #about-me img {
+    width: 150px;
+    border-radius: 50%;
+  }
+  
+  .project-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  footer a {
+    margin: 0 10px;
+  }
